@@ -36,13 +36,10 @@
 | **Additional Frontend Libraries** | *(list all)* |
 | **Additional Backend Libraries** | *(list all)* |
 | **CSS Approach** | *(e.g., Vanilla CSS, CSS Modules, Tailwind)* |
-| **Charting Library** (if used) | *(e.g., Chart.js, Recharts, D3)* |
 
 ---
 
 ## ✅ Features Implemented
-
-### Tier 1: Foundation (Mandatory)
 
 - [ ] Dashboard with summary statistics
 - [ ] Equipment list view (table/grid)
@@ -56,58 +53,6 @@
 - [ ] Database with schema
 - [ ] Frontend deployed to GitHub Pages
 - [ ] Backend deployed to Render/Railway
-
-### Tier 2: Engineering Challenges
-
-- [ ] **Bug Fix (2A):** Found and fixed all 3 bugs in `dataParser.js`
-- [ ] **Bug Fix (2A):** Created `BUG-FIXES.md` with documentation
-- [ ] **CSV Import (2B):** Upload and parse CSV file
-- [ ] **CSV Import (2B):** Data validation and cleaning/normalization
-- [ ] **CSV Import (2B):** Import report (imported / fixed / rejected rows)
-- [ ] **Visualization (2C):** Equipment by type chart
-- [ ] **Visualization (2C):** Status distribution chart
-- [ ] **Visualization (2C):** Installation timeline chart
-- [ ] **Visualization (2C):** Recent activity feed
-- [ ] **Smart Search (2D):** Debounced search
-- [ ] **Smart Search (2D):** Highlight matching text
-- [ ] **Smart Search (2D):** Multi-field search
-- [ ] **Smart Search (2D):** Empty state with helpful message
-
-### Tier 3: Innovation & Attitude
-
-- [ ] **IoT Simulation (3A):** Real-time sensor data streaming
-- [ ] **IoT Simulation (3A):** Sensor data display per equipment
-- [ ] **IoT Simulation (3A):** Live updating values
-- [ ] **Health Score (3B):** Designed health scoring algorithm
-- [ ] **Health Score (3B):** Created `HEALTH-SCORE.md` documentation
-- [ ] **Health Score (3B):** Visual health indicators (color coded)
-- [ ] **Innovation (3C):** Custom feature (describe below)
-
----
-
-## 🚀 Innovation Feature (Tier 3C)
-
-### What did you build?
-
-> *(Describe your custom feature in 3–5 sentences)*
-
-### Why did you choose this?
-
-> *(What value does it add to a lab equipment management system?)*
-
-### How does it work technically?
-
-> *(Brief technical overview — what components, APIs, or logic did you implement?)*
-
----
-
-## 🐛 Bug Fixes Summary (Tier 2A)
-
-> *(Brief summary here — full details should be in BUG-FIXES.md)*
->
-> - Bug 1: _____
-> - Bug 2: _____
-> - Bug 3: _____
 
 ---
 
@@ -125,10 +70,6 @@
 
 > *(2–3 sentences about improvements, refactors, or features you'd add)*
 
-### How did you handle ambiguous requirements?
-
-> *(Specifically for Tier 3 — how did you make decisions when requirements weren't fully specified?)*
-
 ### AI Tools Usage
 
 > *(Which tools did you use? For what tasks? What did you learn vs. what did AI generate?)*
@@ -139,15 +80,9 @@
 
 | Area | Hours |
 |------|-------|
-| **Tier 1: Foundation (CRUD + API + UI)** | |
-| **Tier 2A: Bug Fixing** | |
-| **Tier 2B: CSV Import** | |
-| **Tier 2C: Data Visualization** | |
-| **Tier 2D: Smart Search** | |
-| **Tier 3A: IoT Simulation** | |
-| **Tier 3B: Health Score** | |
-| **Tier 3C: Innovation Feature** | |
-| **Deployment** | |
+| **Frontend UI/UX & Responsive Design** | |
+| **Backend API Development & DB** | |
+| **Deployment (FE + BE)** | |
 | **Documentation & Cleanup** | |
 | **Total** | |
 
@@ -161,7 +96,5 @@
 
 > **⚠️ Checklist before submitting:**
 > - [ ] All links are working and publicly accessible
-> - [ ] `BUG-FIXES.md` created (if Tier 2A attempted)
-> - [ ] `HEALTH-SCORE.md` created (if Tier 3B attempted)
 > - [ ] Code is pushed to your forked repo
 > - [ ] Commit history shows progressive development
