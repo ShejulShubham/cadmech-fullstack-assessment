@@ -1,5 +1,5 @@
 const API_BASE =
-  import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+  import.meta.env.VITE_API_URL || "https://cadmech-fullstack-assessment.onrender.com/api";
 
 export const apiService = {
   // 1. Fetch Dashboard Stats
