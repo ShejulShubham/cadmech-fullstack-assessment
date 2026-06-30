@@ -14,5 +14,5 @@ export default defineConfig({
     },
   },
   // ⚠️ IMPORTANT: Uncomment the line below before deploying to GitHub Pages
-  // base: '/cadmech-fullstack-assessment/',
+  base: '/cadmech-fullstack-assessment/',
 })
