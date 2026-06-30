@@ -10,11 +10,17 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "sqlite3": "^6.0.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
   },
-  "keywords": ["cadmech", "assessment", "equipment-manager", "api"],
+  "keywords": [
+    "cadmech",
+    "assessment",
+    "equipment-manager",
+    "api"
+  ],
   "license": "ISC"
 }
