@@ -49,7 +49,7 @@ const validateEquipmentData = (req, res, next) => {
       details: errors,
     });
   }
-  next();
+  next(new Error(errors));
 };
 
 // ─── GET /api/equipment ────────────────────────────────────
